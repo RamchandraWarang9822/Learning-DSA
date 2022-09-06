@@ -2,7 +2,7 @@ import java.util.*;
 
 public class array {
     
-    int arr[] ;
+    int[] arr;
 
 
     void takeArray(){
