@@ -1,8 +1,8 @@
 public class bubbleSort extends array{
 
-    static array array = new array();
+    array array = new array();
 
-    public static void bubbleSort(int[] arr){
+    public static void bubbleSort(array.arr){
 
             //Taking values in array 
             array.takeArray();

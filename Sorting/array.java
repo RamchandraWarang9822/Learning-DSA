@@ -28,6 +28,9 @@ public class array {
 
     System.out.println("\n");
     }
+    public static main(String[] args){
+        
+    }
 }
 
 
