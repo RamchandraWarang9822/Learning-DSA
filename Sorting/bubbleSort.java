@@ -2,7 +2,7 @@ public class bubbleSort extends array{
 
     array array = new array();
 
-    public static void bubbleSort(array.arr){
+    public static void bubbleSort(arr[]){
 
             //Taking values in array 
             array.takeArray();
