@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     
-    static String sorted , unsorted;
+    static String sorted ;
     static Scanner sc = new Scanner(System.in);
     static int n;
 
@@ -17,7 +17,6 @@ public class Main {
     }
     
     
-
     public static void main(String[] args) {
 
         
@@ -38,16 +37,17 @@ public class Main {
         //Objects
         bubbleSort bubbleSort = new bubbleSort();
         selectionSort selectionSort = new selectionSort();
+        insertionSort insertionSort = new insertionSort();
         
 
         //Selecting type of Sorting algorithm
         System.out.println("Enter number to select Sorting algorithm\n");
         System.out.println("1 : Bubble Sort");
         System.out.println("2 : Selection Sort");
-        System.out.println("3 : ");
-        System.out.println("4 : ");
-        System.out.println("5 : ");
-        System.out.println("6 : ");
+        System.out.println("3 : Insertion Sort");
+        // System.out.println("4 : ");
+        // System.out.println("5 : ");
+        // System.out.println("6 : ");
         System.out.print("\n=> ");
         n = sc.nextInt();
         
@@ -57,6 +57,8 @@ public class Main {
             case 1: bubbleSort.bubbleSort(arr, sorted);
             break;
             case 2: selectionSort.selectionSort(arr, sorted);
+            break;
+            case 3: insertionSort.insertionSort(arr, sorted);
             break;
         }
     
