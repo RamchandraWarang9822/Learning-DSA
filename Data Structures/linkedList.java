@@ -1,5 +1,3 @@
-import java.util.Currency;
-
 public class linkedList{
 
     private Node first;
